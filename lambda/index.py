@@ -20,7 +20,7 @@ def extract_region_from_arn(arn):
 # MODEL_ID = os.environ.get("MODEL_ID", "us.amazon.nova-lite-v1:0")  ###### ← 不要
 
 # ここに FastAPI の URL を設定してください（Colab 実行後の ngrok URL）
-FASTAPI_URL = "https://your-ngrok-url.ngrok.io/generate"  ###### ← 変更箇所（ngrok URL に置換）
+FASTAPI_URL = "FASTAPI_URL = "https://04fa-34-82-148-99.ngrok-free.app/generate"  ###### ← 変更箇所（ngrok URL に置換）※先ほどのコミットではURLを開示を避けましたが、テストのためコミット
 
 def lambda_handler(event, context):
     try:
